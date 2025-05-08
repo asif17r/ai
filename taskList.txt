@@ -1,0 +1,52 @@
+Here is the OCR result from the provided image:
+
+---
+
+**University of Rajshahi**
+**Department of Computer Science and Engineering**
+B.Sc. Engg. Part-IV Even Semester, Examination–2022
+Course: CSE 4212 (Artificial Intelligence Lab)
+Full Marks: 15
+Time: 03 Hours
+
+**Set # C**
+
+---
+
+### **Experiment–1** *(Marks = 6.0)*
+
+**Design a Customize Convolutional Neural Network (CNN) for Handwritten Digit Classification with the following specifications:**
+
+a) Generate a CNN model with:
+  i. Two CNN hidden layers (Conv2D) of sizes 32, 64 followed by
+  ii. ReLU Activation and
+  iii. MaxPooling2D with Kernel size (3, 3), and Stride=(1,1)
+  iv. Use Flatten Layers to convert the feature map into 1D with a Dense layer of size 64 followed by an output Dense Layer of size 10 with SoftMax Activation Function.
+
+b) Display the generated CNN with the required number of parameters.
+c) Use the **MNIST database** for training and testing.
+d) Adopt **Data augmentation** (rotation, shift) with the MNIST dataset.
+e) Train **two CNNs** using the original MNIST dataset and augmented MNIST dataset.
+f) Use the test **MNIST dataset** as well as the augmented test MNIST dataset to predict the accuracy of the two trained CNNs.
+g) Compare and plot the prediction accuracy of the two CNNs.
+
+---
+
+### **Experiment–2** *(Marks = 4.0)*
+
+**Implement a simple deep neural network (DNN) for solving the polynomial equation**
+  **y = 5x³ – 10x² – 20x + 10**
+**with the following specifications:**
+
+a) Use three hidden-layers of sizes 32, 64, and 128 and display the generated DNN with the required number of parameters.
+b) Generate training samples within the range of -20 to +20. Use an appropriate method for normalizing the training data in the range of -1 to +1.
+c) Use 5% of the samples as test data and 5% of the samples as validation data and the rest of the data for training the DNN with an appropriate number of epochs.
+d) Display the training accuracy vs validation accuracy and training error vs validation error curves.
+
+---
+
+**LAB Viva Marks = 5.0**
+
+---
+
+Let me know if you want the code for either of the experiments!
